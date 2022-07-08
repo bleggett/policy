@@ -93,7 +93,7 @@ func (c *PolicyApp) ImagesRemote(server, org string, showEmpty bool) error {
 		server,
 		c.Logger,
 		&extendedregistry.Config{
-			Address:  "http://" + server,
+			Address:  "https://" + server,
 			Username: creds.Username,
 			Password: creds.Password,
 		},

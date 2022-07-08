@@ -120,7 +120,7 @@ func (c *AsertoClient) ListTags(ctx context.Context, org, repo string, page *api
 }
 
 func (c *AsertoClient) GetTag(ctx context.Context, org, repo, tag string) (*api.RegistryRepoTag, error) {
-	image := fmt.Sprintf("%s/%s/%s:%s", strings.TrimPrefix(c.cfg.Address, "http://"), org, repo, tag)
+	image := fmt.Sprintf("%s/%s/%s:%s", strings.TrimPrefix(c.cfg.Address, "https://"), org, repo, tag)
 	repoInfo, err := name.ParseReference(image)
 	if err != nil {
 		return nil, err
@@ -333,7 +333,7 @@ func groupByDigest(tagsByDigest map[string][]*api.RegistryRepoTag, tags []*api.R
 }
 
 func (c *AsertoClient) listTagsRemote(ctx context.Context, org, repo string, page *api.PaginationRequest, deep bool) ([]*api.RegistryRepoTag, *api.PaginationResponse, error) {
-	server := strings.TrimPrefix(c.cfg.Address, "http://")
+	server := strings.TrimPrefix(c.cfg.Address, "https://")
 	repoName, err := name.NewRepository(server + "/" + org + "/" + repo)
 	if err != nil {
 		return nil, nil, errors.Wrapf(err, "invalid repo name [%s]", repo)
