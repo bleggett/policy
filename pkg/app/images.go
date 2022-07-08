@@ -10,7 +10,7 @@ import (
 	"github.com/aserto-dev/go-grpc/aserto/registry/v1"
 	"github.com/containerd/containerd/reference/docker"
 	"github.com/dustin/go-humanize"
-	extendedregistry "github.com/opcr-io/policy/pkg/extended_registry"
+	extendedregistry "github.com/bleggett/policy/pkg/extended_registry"
 	"github.com/pkg/errors"
 	"oras.land/oras-go/pkg/content"
 )

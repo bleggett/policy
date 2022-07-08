@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	extendedregistry "github.com/opcr-io/policy/pkg/extended_registry"
+	extendedregistry "github.com/bleggett/policy/pkg/extended_registry"
 	"github.com/pkg/errors"
 )
 

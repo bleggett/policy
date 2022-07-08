@@ -1,7 +1,7 @@
 package app
 
 import (
-	"github.com/opcr-io/policy/pkg/parser"
+	"github.com/bleggett/policy/pkg/parser"
 	"github.com/pkg/errors"
 	"oras.land/oras-go/pkg/content"
 )

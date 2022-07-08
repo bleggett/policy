@@ -4,8 +4,8 @@ import (
 	"strings"
 
 	"github.com/google/go-containerregistry/pkg/name"
-	extendedregistry "github.com/opcr-io/policy/pkg/extended_registry"
-	"github.com/opcr-io/policy/pkg/parser"
+	extendedregistry "github.com/bleggett/policy/pkg/extended_registry"
+	"github.com/bleggett/policy/pkg/parser"
 	"github.com/pkg/errors"
 	"oras.land/oras-go/pkg/content"
 )

@@ -8,8 +8,8 @@ import (
 	"strings"
 
 	"github.com/aserto-dev/scc-lib/generators"
-	extendedregistry "github.com/opcr-io/policy/pkg/extended_registry"
-	"github.com/opcr-io/policy/pkg/policytemplates"
+	extendedregistry "github.com/bleggett/policy/pkg/extended_registry"
+	"github.com/bleggett/policy/pkg/policytemplates"
 	"github.com/pkg/errors"
 )
 

@@ -7,7 +7,7 @@ import (
 	"time"
 
 	"github.com/aserto-dev/runtime"
-	"github.com/opcr-io/policy/pkg/parser"
+	"github.com/bleggett/policy/pkg/parser"
 	"github.com/open-policy-agent/opa/repl"
 	"github.com/pkg/errors"
 	"oras.land/oras-go/pkg/content"
