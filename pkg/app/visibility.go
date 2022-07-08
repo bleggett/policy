@@ -18,7 +18,7 @@ func (c *PolicyApp) SetVisibility(server, policy string, public bool) error {
 		server,
 		c.Logger,
 		&extendedregistry.Config{
-			Address:  "https://" + server,
+			Address:  "http://" + server,
 			Username: creds.Username,
 			Password: creds.Password,
 		},

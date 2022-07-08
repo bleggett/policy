@@ -39,7 +39,7 @@ func NewOCI(ctx context.Context, log *zerolog.Logger, httpTransport *http.Transp
 		ctx,
 		cfg.Server,
 		log, &extendedregistry.Config{
-			Address:  "https://" + cfg.Server,
+			Address:  "http://" + cfg.Server,
 			Username: " ",
 			Password: " ",
 		},

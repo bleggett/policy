@@ -105,7 +105,7 @@ func (c *PolicyApp) RmRemote(existingRef string, removeAll, force bool) error {
 		server.Name(),
 		c.Logger,
 		&extendedregistry.Config{
-			Address:  "https://" + server.Name(),
+			Address:  "http://" + server.Name(),
 			Username: creds.Username,
 			Password: creds.Password,
 		},
