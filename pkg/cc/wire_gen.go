@@ -10,8 +10,8 @@ import (
 	"github.com/aserto-dev/go-utils/certs"
 	"github.com/aserto-dev/go-utils/logger"
 	"github.com/google/wire"
-	"github.com/opcr-io/policy/pkg/cc/config"
-	"github.com/opcr-io/policy/pkg/cc/context"
+	"github.com/bleggett/policy/pkg/cc/config"
+	"github.com/bleggett/policy/pkg/cc/context"
 )
 
 // Injectors from wire.go:

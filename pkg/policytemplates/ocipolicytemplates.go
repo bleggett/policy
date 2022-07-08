@@ -13,9 +13,9 @@ import (
 	tarfs "github.com/nlepage/go-tarfs"
 
 	"github.com/containerd/containerd/remotes/docker"
-	extendedregistry "github.com/opcr-io/policy/pkg/extended_registry"
-	ociclient "github.com/opcr-io/policy/pkg/oci"
-	"github.com/opcr-io/policy/pkg/parser"
+	extendedregistry "github.com/bleggett/policy/pkg/extended_registry"
+	ociclient "github.com/bleggett/policy/pkg/oci"
+	"github.com/bleggett/policy/pkg/parser"
 	"github.com/pkg/errors"
 	"github.com/rs/zerolog"
 )

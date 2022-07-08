@@ -4,8 +4,8 @@ import (
 	"sort"
 
 	"github.com/aserto-dev/go-grpc/aserto/api/v1"
-	extendedregistry "github.com/opcr-io/policy/pkg/extended_registry"
-	"github.com/opcr-io/policy/pkg/policytemplates"
+	extendedregistry "github.com/bleggett/policy/pkg/extended_registry"
+	"github.com/bleggett/policy/pkg/policytemplates"
 	"github.com/pkg/errors"
 )
 

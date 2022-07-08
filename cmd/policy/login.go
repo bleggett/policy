@@ -6,7 +6,7 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/opcr-io/policy/pkg/cc/config"
+	"github.com/bleggett/policy/pkg/cc/config"
 	"github.com/pkg/errors"
 	"golang.org/x/term"
 )

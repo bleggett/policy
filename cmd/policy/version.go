@@ -1,6 +1,6 @@
 package main
 
-import "github.com/opcr-io/policy/pkg/version"
+import "github.com/bleggett/policy/pkg/version"
 
 type VersionCmd struct {
 }
