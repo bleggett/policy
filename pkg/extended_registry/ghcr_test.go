@@ -9,7 +9,7 @@ import (
 	"github.com/aserto-dev/go-grpc/aserto/api/v1"
 	"github.com/aserto-dev/go-grpc/aserto/registry/v1"
 	"github.com/golang/mock/gomock"
-	mocksources "github.com/bleggett/policy/pkg/mocks"
+	mocksources "github.com/opcr-io/policy/pkg/mocks"
 	"github.com/rs/zerolog"
 	"gopkg.in/h2non/gock.v1"
 	"gotest.tools/assert"

@@ -3,7 +3,7 @@ package app
 import (
 	"testing"
 
-	"github.com/bleggett/policy/pkg/parser"
+	"github.com/opcr-io/policy/pkg/parser"
 	"github.com/stretchr/testify/require"
 )
 

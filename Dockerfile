@@ -19,7 +19,7 @@ FROM alpine:3
 ARG VERSION
 ARG COMMIT
 LABEL org.opencontainers.image.version=$VERSION
-LABEL org.opencontainers.image.source=https://github.com/bleggett/policy
+LABEL org.opencontainers.image.source=https://github.com/opcr-io/policy
 LABEL org.opencontainers.image.title="policy"
 LABEL org.opencontainers.image.revision=$COMMIT
 LABEL org.opencontainers.image.url="https://openpolicyregistry.io"

@@ -1,4 +1,4 @@
-module github.com/bleggett/policy
+module github.com/opcr-io/policy
 
 go 1.17
 

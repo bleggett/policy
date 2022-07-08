@@ -1,8 +1,8 @@
 package app
 
 import (
-	"github.com/bleggett/policy/pkg/oci"
-	"github.com/bleggett/policy/pkg/parser"
+	"github.com/opcr-io/policy/pkg/oci"
+	"github.com/opcr-io/policy/pkg/parser"
 	"github.com/pkg/errors"
 )
 

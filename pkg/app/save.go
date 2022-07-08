@@ -4,7 +4,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/bleggett/policy/pkg/parser"
+	"github.com/opcr-io/policy/pkg/parser"
 	v1 "github.com/opencontainers/image-spec/specs-go/v1"
 	"github.com/pkg/errors"
 	"oras.land/oras-go/pkg/content"

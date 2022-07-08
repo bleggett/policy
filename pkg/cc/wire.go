@@ -8,8 +8,8 @@ import (
 	"github.com/aserto-dev/go-utils/logger"
 	"github.com/google/wire"
 
-	"github.com/bleggett/policy/pkg/cc/config"
-	cc_context "github.com/bleggett/policy/pkg/cc/context"
+	"github.com/opcr-io/policy/pkg/cc/config"
+	cc_context "github.com/opcr-io/policy/pkg/cc/context"
 )
 
 var (

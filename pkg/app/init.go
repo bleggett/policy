@@ -7,7 +7,7 @@ import (
 
 	"github.com/aserto-dev/scc-lib/generators"
 	"github.com/magefile/mage/sh"
-	"github.com/bleggett/policy/pkg/policytemplates"
+	"github.com/opcr-io/policy/pkg/policytemplates"
 
 	"github.com/pkg/errors"
 )

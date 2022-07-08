@@ -10,8 +10,8 @@ import (
 	"github.com/Masterminds/sprig"
 	"github.com/alecthomas/kong"
 	"github.com/aserto-dev/go-utils/logger"
-	"github.com/bleggett/policy/pkg/app"
-	"github.com/bleggett/policy/pkg/cc/config"
+	"github.com/opcr-io/policy/pkg/app"
+	"github.com/opcr-io/policy/pkg/cc/config"
 	"github.com/pkg/errors"
 )
 
@@ -137,7 +137,7 @@ func (g *Globals) setup() func() {
 
 	if err != nil {
 		fmt.Fprintf(os.Stderr, `Application setup failed: %+v.
-This might be a bug. Please open an issue here: https://github.com/bleggett/policy\n`,
+This might be a bug. Please open an issue here: https://github.com/opcr-io/policy\n`,
 			err)
 	}
 
